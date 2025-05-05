@@ -1,5 +1,5 @@
 {% set name = "dliswriter" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/dliswriter-{{ version }}.tar.gz
-  sha256: d33c143e85e73ee03ab4436e8a6095c3c17264d5a5da71b1e9f29e2ed5407770
+  sha256: d5011c3a5815f235bea5c3eb0bcb06c727f8dae63e4b345b8ad411426c6a9812
 
 build:
   noarch: python
